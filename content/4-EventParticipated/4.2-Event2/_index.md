@@ -1,126 +1,91 @@
 ---
 title: "Event 2"
-date: 2024-01-01
-weight: 1
+date: 2026-01-17
+weight: 3
 chapter: false
 pre: " <b> 4.2. </b> "
----
+--- 
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
-
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+# Reflection Report: "AWS GameDay – Battle of the 8 Teams"
 
 ### Event Objectives
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+- Provide a competitive environment for applying AWS knowledge through hands-on challenges.
+- Assess participants' analytical thinking, problem-solving abilities, and cloud architecture design skills.
+- Strengthen AWS certification exam readiness under time-constrained conditions.
+- Foster networking opportunities within the AWS Cloud community while encouraging knowledge sharing and real-world experience.
 
-### Speakers
+### Participants
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+- **Organizing Committee & Judges** – AWS professionals responsible for preparing the competition, evaluating answers, and managing the event.
+- **Eight Competing Teams** – Teams competing in a single-elimination tournament format.
+- **Audience** – Students and AWS Cloud Journey community members who attended to observe the competition, support the contestants, and gain practical insights.
 
-### Key Highlights
+### Event Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+#### Competition Format
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+- The competition followed a single-elimination bracket consisting of Quarterfinals, Semifinals, and the Final.
+- Each match included ten multiple-choice questions with strict time limits.
+- Both teams answered simultaneously under a **"Correct Answer Earns Points – Incorrect Answer Deducts Points"** scoring system, requiring careful decision-making throughout the competition.
 
-#### Transitioning to modern application architecture – Microservices
+#### Question Categories
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
-
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
-
-#### Domain-Driven Design (DDD)
-
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
-
-#### Event-Driven Architecture
-
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
-
-#### Compute Evolution
-
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
-
-#### Amazon Q Developer
-
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+- **AWS Fundamental Knowledge:** Core AWS services at the Cloud Practitioner level.
+- **Cloud Architecture Design:** Real-world scenarios requiring participants to identify the most appropriate AWS solutions at the Solutions Architect level.
+- Questions emphasized balancing cost optimization, performance, scalability, and high availability when designing cloud architectures.
 
 ### Key Takeaways
 
-#### Design Mindset
+#### AWS Examination Skills
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+- Learned to quickly identify critical keywords within exam questions.
+- Applied the process of elimination to improve accuracy on challenging questions.
+- Understood the importance of logical analysis rather than relying on intuition.
+- Recognized the need to evaluate potential risks before selecting an answer due to the negative scoring system.
 
-#### Technical Architecture
+#### Technical Knowledge
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+- Gained a deeper understanding of selecting appropriate AWS services for different business requirements.
+- Learned common architectural patterns, such as integrating **Amazon SQS** with **AWS Lambda** for asynchronous processing and using **Amazon EC2 Spot Instances** to optimize costs for batch-processing workloads.
+- Developed a stronger understanding of architectural decision-making instead of simply memorizing AWS services.
 
-#### Modernization Strategy
+### Practical Applications
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
-
-### Applying to Work
-
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+- Apply keyword analysis techniques when preparing for AWS certification exams.
+- Consider cost, performance, scalability, and fault tolerance when designing cloud solutions.
+- Strengthen technical knowledge through continuous hands-on practice in AWS environments.
+- Improve decision-making skills under time pressure by practicing scenario-based questions.
 
 ### Event Experience
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+Attending **AWS GameDay – Battle of the 8 Teams** as an audience member provided valuable insights into AWS technologies and demonstrated how experienced participants approached complex problems under strict time constraints.
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+#### Observing Live Competitions
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+- Watched competing teams solve AWS service and cloud architecture questions within a limited timeframe.
+- Experienced the intensity of the **"Correct Answer Earns Points – Incorrect Answer Deducts Points"** scoring system, which encouraged strategic thinking instead of random guessing.
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
+#### Learning from Team Strategies
 
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
+- Observed how participants rapidly analyzed questions, identified key information, and applied elimination techniques to determine the best answers.
+- Realized that mastering AWS requires not only understanding individual services but also developing strong architectural thinking and analytical skills.
 
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
+#### Self-Assessment
 
-#### Some event photos
-*Add your event photos here*  
+- Attempted to answer the competition questions independently while following the matches.
+- Identified personal knowledge gaps in Networking, Database services, and practical AWS implementation, highlighting areas for future improvement.
 
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+#### Lessons Learned
+
+- Combining strong foundational knowledge with analytical thinking is significantly more effective than memorizing theoretical concepts.
+- Regular hands-on practice and mock examinations are essential for successfully preparing for AWS certification exams.
+- Remaining calm and making accurate decisions under pressure are critical skills for aspiring Cloud Engineers.
+
+#### Event Photos
+
+<p align="center">
+  <img src="/images/4-EventsParticipated/img6.png" width="700">
+</p>
+
+> Participating in this event strengthened my AWS knowledge, enhanced my cloud architecture and problem-solving skills, and motivated me to continue preparing for AWS certifications and a professional career in Cloud Computing.

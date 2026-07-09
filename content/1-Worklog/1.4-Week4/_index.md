@@ -1,57 +1,40 @@
 ---
-title: "Week 4 Worklog"
-date: 2024-01-01
-weight: 1
+title: "Week 4 Worklog "
+date: 2026-04-17
+weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 4 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Analyze and consolidate documentation on AWS database migration solutions.
+* Gain an in-depth understanding of AWS networking infrastructure, security services, and content delivery technologies.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks Completed During This Week:
 
+| Day | Tasks | Start Date | Completion Date | Reference Materials |
+| --- | --- | --- | --- | --- |
+| 2 | Identify migration objectives and analyze potential challenges encountered during database migration projects. | 10/05/2026 | 14/05/2026 | [AWS Database Migration Service](https://aws.amazon.com/dms/) |
+| 3 | Study the AWS migration toolset, including AWS Database Migration Service (DMS), AWS Schema Conversion Tool (SCT), AWS Snow Family, and AWS DataSync, together with their practical implementation scenarios. | 14/05/2026 | 15/05/2026 | [AWS Database Migration Service](https://aws.amazon.com/dms/) |
+| 4 | Understand the complete database migration lifecycle, including assessment, preparation, migration execution, validation, and post-migration optimization. | 15/05/2026 | 16/05/2026 | [Database Migration Strategies](https://www.google.com/search?q=https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/database-migration.html) |
+| 5 | Explore AWS networking architecture with Amazon VPC, including Subnets, Route Tables, Internet Gateway, NAT Gateway, Security Groups, and connectivity solutions such as AWS PrivateLink, Site-to-Site VPN, and AWS Direct Connect. | 16/05/2026 | 17/05/2026 | [Amazon VPC Connectivity Options](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/introduction.html) |
+| 6 | Study the capabilities of Amazon Route 53 and Amazon CloudFront, and develop a high-level AWS network architecture diagram for DNS management and content delivery. | 17/05/2026 | 17/05/2026 | [Amazon Route 53 / Amazon CloudFront](https://aws.amazon.com/cloudfront/) |
 
-### Week 4 Achievements:
+### Week 4 Outcomes:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Completed a comprehensive study of AWS database migration solutions and developed a thorough understanding of the challenges and implementation process involved in database migration projects.
 
-* Successfully created and configured an AWS Free Tier account.
+* Acquired practical knowledge of AWS Database Migration Service (DMS), AWS Schema Conversion Tool (SCT), AWS Snow Family, and AWS DataSync, including their key features and common use cases.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Understood the end-to-end database migration workflow, covering assessment, schema conversion, data synchronization, validation, and system optimization.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Gained a solid understanding of AWS networking architecture with Amazon VPC, including Subnets, Route Tables, Internet Gateway, NAT Gateway, and Security Groups.
 
-* Used AWS CLI to perform basic operations such as:
+* Understood secure connectivity mechanisms between AWS and on-premises environments using AWS PrivateLink, Site-to-Site VPN, and AWS Direct Connect.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* Learned the roles of Amazon Route 53 and Amazon CloudFront in DNS management and global content delivery (CDN).
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Successfully designed a high-level AWS network architecture diagram, strengthening analytical and cloud infrastructure design skills.
+
+* Enhanced the ability to interpret AWS technical documentation and apply cloud architecture best practices to real-world infrastructure design.

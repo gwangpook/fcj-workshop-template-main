@@ -1,57 +1,37 @@
 ---
-title: "Week 12 Worklog"
-date: 2024-01-01
-weight: 2
+title: "Week 12 Worklog "
+date: 2026-04-17
+weight: 12
 chapter: false
-pre: " <b> 1.12. </b> "
+pre: " <b> 1.12 </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 12 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Complete the community interaction features.
+* Develop the core system logic.
+* Implement a hierarchical commenting system.
+* Track user activities.
+* Finalize the project documentation and handover.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks to be completed this week:
 
+| Day | Task | Start Date | Completion Date | Reference |
+| --- | --- | --- | --- | --- |
+| 2 | Team meeting to design community interaction APIs for FlashLearn, including Flashcard voting and Quiz ranking features. | 05/06/2026 | 06/06/2026 | |
+| 3 | Implement the scoring logic to automatically increase or decrease ranking points based on user interactions (upvotes/downvotes or quiz completion). | 06/06/2026 | 07/06/2026 | |
+| 4 | Design the hierarchical commenting system by building the data structure for threaded comments (with reply support) and updating comment counters for each learning resource. | 07/06/2026 | 08/06/2026 | |
+| 5 | Complete additional features by developing the **Favorite** functionality for Flashcards and Quizzes, and record user activities in the `user_activities` table. | 08/06/2026 | 09/06/2026 | |
+| 6 | Team meeting to finalize the API documentation, consolidate the complete ERD for the system, and prepare the project handover package. | 09/06/2026 | 10/06/2026 | |
 
-### Week 12 Achievements:
+### Achievements for Week 12:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Successfully implemented APIs that allow users to upvote or downvote Flashcards and rank Quiz sets, enhancing the platform's social learning experience.
 
-* Successfully created and configured an AWS Free Tier account.
+* Successfully developed the automatic ranking score calculation logic, ensuring accurate and consistent system responses after every user interaction.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Implemented a hierarchical comment data structure with reply support and automatic comment count updates for each learning resource.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Developed the **Favorite** feature and implemented the `user_activities` table to record user activities, enabling user behavior analysis across the platform.
 
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Completed the overall ERD, finalized the API technical documentation, and prepared the project handover package, ensuring the system was ready for deployment and operational use.

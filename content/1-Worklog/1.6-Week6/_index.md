@@ -1,57 +1,34 @@
 ---
-title: "Week 6 Worklog"
-date: 2024-01-01
-weight: 1
+title: "Week 6 Worklog "
+date: 2026-04-17
+weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 6 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Conduct an in-depth study of AWS automated security services to enhance monitoring capabilities and improve responses to potential security threats.
+* Strengthen expertise in fine-grained Identity and Access Management (IAM), including the distinction between IAM users and IAM roles, while applying the Principle of Least Privilege within cloud environments.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks Completed During the Week:
 
+| Day | Task | Start Date | Completion Date | Reference Materials |
+| --- | --- | --- | --- | --- |
+| 2 | Study the AWS security foundation, including the Shared Responsibility Model and the significance of protecting data in cloud environments. | 24/05/2026 | 25/05/2026 | [AWS Documentation: Shared Responsibility Model](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/shared-responsibility.html) |
+| 3 | Explore compliance governance, covering international compliance standards and the core governance functions of Identify, Protect, Detect, Respond, and Recover. | 25/05/2026 | 27/05/2026 | [AWS Documentation: Cloud Compliance Program](https://aws.amazon.com/vi/compliance/) |
+| 4 | Evaluate AWS automated security services, including Security Hub, Trusted Advisor, and Amazon GuardDuty for intelligent threat detection. | 27/05/2026 | 28/05/2026 | [AWS Documentation: Intelligent Threat Detection – Amazon GuardDuty](https://aws.amazon.com/vi/guardduty/) |
+| 5 | Study Identity and Access Management (IAM), focusing on the Principle of Least Privilege, root account protection, Multi-Factor Authentication (MFA), and secrets management. | 28/05/2026 | 29/05/2026 | [AWS Documentation: Identity and Access Management (IAM)](https://docs.amazonaws.cn/iam/) |
+| 6 | Gain advanced knowledge of IAM by distinguishing IAM users from IAM roles, creating permission policies, and assigning permissions to AWS compute resources. | 29/05/2026 | 31/05/2026 | [AWS Builder Documentation](https://builder.aws.com/content/3C3mJwaTB5NWzcBfEugE7AUx59H/iam-identity-and-access-management) |
 
 ### Week 6 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Developed a comprehensive understanding of the AWS Shared Responsibility Model, reinforcing the critical importance of securing data within cloud environments.
 
-* Successfully created and configured an AWS Free Tier account.
+* Completed an in-depth study of international compliance standards and mastered the fundamental governance functions, including Identify, Protect, Detect, Respond, and Recover.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Successfully evaluated AWS Security Hub, Trusted Advisor, and Amazon GuardDuty, gaining practical insights into automated security monitoring and intelligent threat detection.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Effectively implemented the Principle of Least Privilege by securing the root account, enabling Multi-Factor Authentication (MFA), and managing sensitive credentials in accordance with AWS security best practices.
 
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Clearly distinguished between IAM users and IAM roles, created fine-grained access control policies, and assigned permissions to AWS compute resources based on operational requirements.

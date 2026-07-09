@@ -1,126 +1,149 @@
 ---
 title: "Event 1"
-date: 2024-01-01
+date: 2026-04-17
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+# Event Report: FCAJ Community Day
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+## Purpose of the Event
 
-### Event Objectives
+FCAJ Community Day was organized to provide practical insights into Artificial Intelligence, AWS Cloud, and career development for students and fresh graduates. The event focused on several key topics, including:
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+- Strategies for maintaining long-term learning motivation.
+- Best practices in Prompt Engineering.
+- Professional mindset with an emphasis on Foundation and Integrity.
+- The BMX Method for AI-assisted software development.
+- A demonstration of a GenAI application built on AWS Serverless architecture.
 
-### Speakers
+## Speakers
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+- **Mr. Long:** Shared effective techniques for maintaining learning motivation through the "Hack Your Brain" approach.
+- **Mr. Thịnh:** Introduced Prompt Engineering techniques and demonstrated an AI application running on AWS.
+- **Mr. Khang:** Discussed the importance of Foundation, Integrity, and professional thinking in software engineering.
+- **Ms. Thảo (Software Developer - VIB):** Presented the BMX Method for improving software development with AI.
 
-### Key Highlights
+## Key Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+### 1. Learning Motivation
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+The speaker explained how excessive exposure to social media and video games affects dopamine levels, leading to procrastination. Several practical strategies were suggested to overcome this challenge:
 
-#### Transitioning to modern application architecture – Microservices
+- Maintain a daily learning streak.
+- Break large goals into smaller milestones.
+- Reward yourself after completing each study session.
+- Build consistent habits instead of relying on temporary motivation.
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+This session reminded me that mastering AWS requires continuous learning rather than short periods of intensive study.
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+### 2. Prompt Engineering
 
-#### Domain-Driven Design (DDD)
+A well-structured prompt consists of seven essential components:
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+- Role
+- Task
+- Context
+- Input
+- Example
+- Output Format
+- Constraint
 
-#### Event-Driven Architecture
+The speaker also emphasized the importance of providing sufficient context, breaking complex requests into smaller tasks, and clearly defining the expected output to reduce AI hallucinations. I realized that the quality of AI-generated responses depends heavily on how clearly and systematically a prompt is written.
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+### 3. GenAI Demonstration on AWS
 
-#### Compute Evolution
+The live demonstration showcased a Serverless GenAI solution built using:
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+- Amazon CloudFront
+- Amazon S3
+- Amazon API Gateway
+- AWS Lambda
+- Amazon Bedrock
+- Amazon DynamoDB
+- Amazon Cognito
 
-#### Amazon Q Developer
+This session helped me understand how multiple AWS services can be integrated to build a complete AI-powered application rather than learning each service in isolation.
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+### 4. Professional Mindset
+
+The most memorable takeaway was the statement:
+
+> **"AI does not replace software developers; it amplifies their existing capabilities."**
+
+The speaker also highlighted several important professional principles:
+
+- Always ask **"Why?"** before seeking a solution.
+- Build a strong technical foundation.
+- Work with responsibility and integrity.
+- Evaluate career opportunities based on long-term learning and personal growth.
+
+### 5. BMX Method
+
+The BMX Method introduces a structured approach to collaborating with AI during software development:
+
+- Design the system architecture first.
+- Prepare comprehensive documentation.
+- Break the project into Epics, Stories, and Sub-tasks.
+- Assign specialized responsibilities to AI agents.
+
+This workflow enables AI to operate with better context, resulting in higher-quality outputs and fewer development errors.
+
+## Knowledge Gained
+
+### Technical Knowledge
+
+- Learned how to design effective prompts.
+- Gained a better understanding of GenAI applications built on AWS Serverless architecture.
+- Recognized the importance of system design and documentation before implementation.
+
+### Professional Mindset
+
+- A solid foundation is essential for long-term career development.
+- AI should be treated as a productivity tool rather than a replacement for human thinking.
+- Asking **"Why?"** is crucial to understanding the root cause of any problem.
+
+## Applying the Knowledge
+
+After attending the event, I applied several lessons throughout my internship:
+
+- Designed prompts using a structured format.
+- Prepared architecture diagrams and documentation before using AI assistance.
+- Adopted a document-driven approach while developing the FlashLearn project.
+- Maintained a consistent AWS learning routine and committed code daily.
+- Paid greater attention to software quality and maintainability.
+
+## Personal Experience
+
+Participating in **FCAJ Community Day** was a valuable experience that broadened my understanding of Artificial Intelligence, AWS Cloud, and modern software engineering practices.
+
+### Learning from Industry Professionals
+
+The speakers shared practical experiences on maintaining learning motivation, writing effective prompts, and developing a professional mindset. Their insights into Foundation and Integrity provided a clearer understanding of the qualities expected from software engineers in today's industry.
+
+### Technical Insights
+
+The live demonstration of a GenAI application on AWS offered a practical view of how CloudFront, Amazon S3, API Gateway, AWS Lambda, Amazon Bedrock, DynamoDB, and Amazon Cognito work together within a Serverless architecture.
+
+In addition, learning about the BMX Method changed the way I think about collaborating with AI during software development.
 
 ### Key Takeaways
 
-#### Design Mindset
+Several important lessons stood out to me:
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+- AI enhances productivity but cannot replace critical thinking.
+- Understanding the problem is more important than rushing toward a solution.
+- Well-designed documentation and system architecture significantly improve AI-assisted development.
 
-#### Technical Architecture
+### Practical Impact
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+Following the event, I began writing structured prompts, documenting project requirements before implementation, and applying a document-driven workflow to the FlashLearn project. I also committed to studying AWS consistently to strengthen both my theoretical knowledge and practical skills.
 
-#### Modernization Strategy
+### Photos from the Event
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+<p align="center">
+  <img src="/images/4-EventsParticipated/event1.png" width="700">
+</p>
 
-### Applying to Work
-
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
-
-### Event Experience
-
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
-
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
-
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
-
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
-
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
-
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
-
-#### Some event photos
-*Add your event photos here*  
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+> Overall, FCAJ Community Day provided not only valuable technical knowledge about AI and AWS but also inspired me to develop a more structured learning mindset, collaborate more effectively with AI, and establish a clearer roadmap for my future career in Cloud Computing and Software Engineering.

@@ -1,37 +1,33 @@
 ---
 title: "Worklog"
-date: 2024-01-01
+date: 2026-04-17
 weight: 1
 chapter: false
-pre: " <b> 1. </b> "
+pre: "<b>1. </b>"
 ---
 
+The weekly worklog completed throughout the internship is presented below.
 
+**Week 1:** [Getting Started with AWS Cloud, Cloud Computing Fundamentals, and the AWS CLI](1.1-week1/)
 
-**On this page**, you will need to introduce your worklog. **How** did you complete it? How many weeks did you take to complete the program? **What** did you do in those weeks?
+**Week 2:** [Exploring and Practicing Core AWS Services (IAM, S3, EC2, RDS, and Lambda)](1.2-week2/)
 
-Typically, and as a standard, a worklog is carried out over about 3 months (throughout the internship period) with weekly contents as follows:
+**Week 3:** [Studying Compute, Container, Database, and Data Migration Services on AWS](1.3-week3/)
 
-**Week 1:** [Getting familiar with AWS and basic AWS services](1.1-week1/)
+**Week 4:** [Exploring Database Migration, Networking, and Content Delivery Services on AWS](1.4-week4/)
 
-**Week 2:** [Doing task A...](1.2-week2/)
+**Week 5:** [Studying AWS Storage, AI/ML, Analytics, and Application Integration Services](1.5-week5/)
 
-**Week 3:** [Doing task B...](1.3-week3/)
+**Week 6:** [Learning AWS Security, Identity and Access Management (IAM), Monitoring, and Compliance](1.6-week6/)
 
-**Week 4:** [Doing task C...](1.4-week4/)
+**Week 7:** [Reviewing AWS Cloud Practitioner Concepts and Completing Mock Examinations](1.7-week7/)
 
-**Week 5:** [Doing task D...](1.5-week5/)
+**Week 8:** [Learning Infrastructure as Code (IaC) with AWS CDK, Terraform, and Node.js](1.8-week8/)
 
-**Week 6:** [Doing task E...](1.6-week6/)
+**Week 9:** [Designing and Implementing the FlashLearn System Architecture on AWS](1.9-week9/)
 
-**Week 7:** [Doing task G...](1.7-week7/)
+**Week 10:** [Optimizing System Performance, Automating Workflows, API Testing, and Monitoring](1.10-week10/)
 
-**Week 8:** [Doing task H...](1.8-week8/)
+**Week 11:** [Developing APIs, Database Design, Content Management, and Technical Documentation](1.11-week11/)
 
-**Week 9:** [Doing task I...](1.9-week9/)
-
-**Week 10:** [Doing task L...](1.10-week10/)
-
-**Week 11:** [Doing task M...](1.11-week11/)
-
-**Week 12:** [Doing task N...](1.12-week12/)
+**Week 12:** [Finalizing Community Features, Technical Documentation, and Project Handover](1.12-week12/)

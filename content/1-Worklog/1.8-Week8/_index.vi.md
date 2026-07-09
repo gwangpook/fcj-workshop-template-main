@@ -1,59 +1,35 @@
 ---
 title: "Worklog Tuần 8"
-date: 2024-01-01
-weight: 1
+date: 2026-04-17
+weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 8:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Hiểu các khái niệm Cơ sở hạ tầng dưới dạng mã (IaC).
+* Tìm hiểu các nguyên tắc cơ bản về AWS CDK và Terraform.
+* Bắt đầu với kiến thức cơ bản về NodeJS.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 2 | Duy trì ôn luyện thi; khám phá các tư tưởng cốt lõi của IaC và lợi ích của việc quản lý cơ sở hạ tầng thông qua mã nguồn. | 07/06/2026 | 08/06/2026 | [Tìm hiểu về Hạ tầng dạng mã](https://www.google.com/search?q=https://aws.amazon.com/what-is/infrastructure-as-code/) |
+| 3 | Tiếp cận AWS CDK; nắm bắt nền tảng kiến thức và mô hình cấu trúc của công cụ này. | 08/06/2026 | 09/06/2026 | [Tài liệu AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/home.html) |
+| 4 | Tìm hiểu Terraform; nghiên cứu cấu trúc cú pháp, cách thiết lập cấu hình và đối chiếu sự khác biệt giữa CDK với Terraform. | 09/06/2026 | 10/06/2026 | [Tài liệu Terraform](https://developer.hashicorp.com/terraform/docs) |
+| 5 | Nghiên cứu các nguyên lý nền tảng của NodeJS; thực hiện cài đặt môi trường NodeJS, npm và tìm hiểu cách sử dụng cú pháp cùng các mô-đun cơ bản. | 10/06/2026 | 12/06/2026 | [Tài liệu Node.js](https://nodejs.org/docs/latest/api/) |
+| 6 | Tiếp tục ôn luyện; thực hành triển khai ví dụ với CDK hoặc Terraform kết hợp cùng bài tập thực hành NodeJS. | 12/06/2026 | 14/06/2026 | [Trung tâm tài nguyên AWS](https://aws.amazon.com/getting-started/) |
 
 ### Kết quả đạt được tuần 8:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Nắm vững lợi ích, phương pháp khai báo/mệnh lệnh, kiểm soát phiên bản và tính tái tạo.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Hiểu rõ cấu trúc, cú pháp và cách định nghĩa tài nguyên AWS bằng mã.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Làm chủ các tệp cấu hình (.tf), biến tài nguyên và phân biệt được sự khác biệt so với AWS CDK.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Hoàn tất cài đặt môi trường, nắm vững cú pháp, mô-đun cơ bản và hoàn thành các bài tập thực hành.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Củng cố kiến thức DevOps hiện đại và sẵn sàng cho kỳ thi sắp tới.

@@ -1,57 +1,34 @@
 ---
-title: "Week 5 Worklog"
-date: 2024-01-01
-weight: 1
+title: "Week 5 Worklog "
+date: 2026-04-17
+weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 5 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Develop a comprehensive understanding of AWS storage solutions and the data lifecycle management process.
+* Gain practical experience in applying AWS AI/ML services, data analytics tools, and system integration techniques through hands-on exercises.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks Completed During This Week:
 
+| Day | Tasks | Start Date | Completion Date | Reference Materials |
+| --- | --- | --- | --- | --- |
+| 2 | Study AWS storage solutions, including Object Storage (Amazon S3), Block Storage (Amazon EBS), File Storage (Amazon EFS), In-memory Storage (Amazon ElastiCache), as well as data lifecycle management and backup strategies. | 17/05/2026 | 20/05/2026 | [Tài liệu S3 / Tài liệu EBS / Tài liệu EFS](https://docs.aws.amazon.com/efs/) |
+| 3 | Explore the AWS AI/ML ecosystem, including built-in AI services, Machine Learning tools such as Amazon SageMaker and Amazon CodeWhisperer, the underlying infrastructure, and the standard machine learning deployment workflow on AWS. | 20/05/2026 | 22/05/2026 | [Tài liệu SageMaker / Dịch vụ AI của AWS](https://docs.aws.amazon.com/sagemaker/) |
+| 4 | Explore AWS data analytics services, including serverless querying with Amazon Athena, data visualization using Amazon QuickSight, data streaming with Amazon Kinesis, data warehousing with Amazon Redshift, and ETL processing through AWS Glue. | 22/05/2026 | 23/05/2026 | [Tài liệu Athena / Tài liệu Kinesis / Tài liệu Redshift](https://docs.aws.amazon.com/kinesis/) |
+| 5 | Study supporting AWS services, including application integration using Amazon EventBridge, Amazon SQS, and Amazon SNS, email services with Amazon SES, and DevOps tools such as AWS CodePipeline and AWS CodeCommit. | 23/05/2026 | 24/05/2026 | [Tài liệu EventBridge / Tài liệu SQS / Tài liệu SNS](https://docs.aws.amazon.com/eventbridge/) |
+| 6 | Complete an integrated hands-on exercise by configuring Amazon S3 Lifecycle policies, building a machine learning model with Amazon SageMaker, developing a data pipeline using Amazon Kinesis and AWS Glue, and implementing an event-driven architecture with Amazon EventBridge. | 24/05/2026 | 24/05/2026 | [Hướng dẫn thực hành AWS](https://aws.amazon.com/vi/getting-started/hands-on/) |
 
-### Week 5 Achievements:
+### Week 5 Outcomes:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Acquired a solid understanding of AWS storage services, including Amazon S3, Amazon EBS, Amazon EFS, and Amazon ElastiCache, together with data lifecycle management policies and backup strategies.
 
-* Successfully created and configured an AWS Free Tier account.
+* Developed practical knowledge of AWS AI services and became proficient in using machine learning tools such as Amazon SageMaker and Amazon CodeWhisperer, as well as understanding the standard machine learning deployment workflow on AWS.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Gained hands-on experience with AWS data analytics services, including serverless querying using Amazon Athena, data warehousing with Amazon Redshift, real-time data streaming through Amazon Kinesis, and ETL workflows implemented with AWS Glue.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Developed a thorough understanding of application integration using Amazon EventBridge, Amazon SQS, and Amazon SNS, while effectively utilizing AWS DevOps services such as AWS CodePipeline and AWS CodeCommit.
 
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Successfully completed practical exercises involving Amazon S3 Lifecycle configuration, machine learning model development with Amazon SageMaker, data pipeline implementation, and the deployment of an event-driven architecture using Amazon EventBridge.

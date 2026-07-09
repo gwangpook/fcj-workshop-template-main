@@ -1,125 +1,149 @@
 ---
 title: "Event 1"
-date: 2024-01-01
+date: 2026-04-17
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+# Bài thu hoạch "FCAJ Community Day"
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+## Mục Đích Của Sự Kiện
 
-### Mục Đích Của Sự Kiện
+FCAJ Community Day được tổ chức nhằm chia sẻ kiến thức thực tế về AI, AWS Cloud và định hướng nghề nghiệp cho sinh viên, fresher. Nội dung chính của chương trình gồm:
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+- Chia sẻ phương pháp duy trì động lực học tập.
+- Hướng dẫn kỹ thuật Prompt Engineering.
+- Định hướng tư duy nghề nghiệp với Foundation và Integrity.
+- Giới thiệu BMX Method trong phát triển phần mềm cùng AI.
+- Minh họa kiến trúc GenAI trên nền tảng AWS Serverless.
 
-### Danh Sách Diễn Giả
+## Danh Sách Diễn Giả
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+- **Anh Long:** Chia sẻ phương pháp "Hack não bộ" giúp duy trì động lực học tập.
+- **Anh Thịnh:** Kỹ thuật Prompt Engineering và demo ứng dụng AI trên AWS.
+- **Anh Khang:** Foundation, Integrity và tư duy nghề nghiệp.
+- **Chị Thảo (Software Developer - VIB):** Giới thiệu phương pháp BMX Method.
 
-### Nội Dung Nổi Bật
+## Nội Dung Nổi Bật
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+### 1. Động lực học tập
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+Diễn giả phân tích nguyên nhân trì hoãn do cơ chế dopamine từ mạng xã hội và game, đồng thời đưa ra các giải pháp như:
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+- Duy trì Daily Streak.
+- Chia nhỏ mục tiêu học tập.
+- Tự tạo phần thưởng sau mỗi phiên học.
+- Xây dựng thói quen thay vì phụ thuộc vào cảm hứng.
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+Qua đó em nhận thấy việc học AWS cần được duy trì đều đặn thay vì học dồn trong thời gian ngắn.
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+### 2. Prompt Engineering
 
-#### Domain-Driven Design (DDD)
+Diễn giả giới thiệu Prompt chuẩn gồm 7 thành phần:
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+- Role
+- Task
+- Context
+- Input
+- Example
+- Output Format
+- Constraint
 
-#### Event-Driven Architecture
+Ngoài ra cần cung cấp đầy đủ ngữ cảnh, chia nhỏ yêu cầu và xác định rõ đầu ra để giảm Hallucination. Em hiểu rằng AI sẽ cho kết quả tốt khi yêu cầu được mô tả rõ ràng và có cấu trúc.
 
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
+### 3. Demo GenAI trên AWS
 
-#### Compute Evolution
+Hệ thống được xây dựng theo kiến trúc Serverless gồm:
 
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
+- Amazon CloudFront
+- Amazon S3
+- Amazon API Gateway
+- AWS Lambda
+- Amazon Bedrock
+- Amazon DynamoDB
+- Amazon Cognito
 
-#### Amazon Q Developer
+Qua phần trình bày, em hiểu cách kết hợp các dịch vụ AWS để xây dựng một ứng dụng AI hoàn chỉnh thay vì chỉ học từng dịch vụ riêng lẻ.
 
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+### 4. Mindset nghề nghiệp
 
-### Những Gì Học Được
+Điều em tâm đắc nhất là quan điểm:
 
-#### Tư Duy Thiết Kế
+> **"AI không thay thế lập trình viên mà chỉ khuếch đại năng lực hiện có."**
 
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
+Diễn giả cũng nhấn mạnh:
 
-#### Kiến Trúc Kỹ Thuật
+- Luôn đặt câu hỏi **"Why"**.
+- Chú trọng kiến thức nền tảng.
+- Làm việc với tinh thần trách nhiệm và Integrity.
+- Đánh giá công việc dựa trên cơ hội học hỏi và phát triển lâu dài.
 
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
+### 5. BMX Method
 
-#### Chiến Lược Hiện Đại Hóa
+BMX Method giúp sử dụng AI hiệu quả thông qua quy trình:
 
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
+- Thiết kế hệ thống trước.
+- Viết tài liệu đầy đủ.
+- Chia dự án thành Epic → Story → Sub-task.
+- Phân vai cho các AI Agent.
 
-### Ứng Dụng Vào Công Việc
+Cách làm này giúp AI hoạt động đúng ngữ cảnh và giảm lỗi trong quá trình phát triển phần mềm.
 
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
+## Những Gì Học Được
 
-### Trải nghiệm trong event
+### Kiến thức kỹ thuật
 
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
+- Biết cách xây dựng Prompt hiệu quả.
+- Hiểu kiến trúc GenAI trên AWS Serverless.
+- Nhận thức vai trò của tài liệu và thiết kế hệ thống trước khi lập trình.
 
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
+### Tư duy nghề nghiệp
 
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
+- Foundation là yếu tố quan trọng để phát triển lâu dài.
+- AI chỉ là công cụ hỗ trợ, không thay thế tư duy của lập trình viên.
+- Luôn đặt câu hỏi **"Why"** để hiểu bản chất vấn đề.
 
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
+## Ứng Dụng Vào Công Việc
 
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
+Sau sự kiện, em đã áp dụng các kiến thức vào quá trình thực tập:
 
-#### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
+- Xây dựng Prompt theo cấu trúc chuẩn.
+- Thiết kế kiến trúc và tài liệu trước khi nhờ AI hỗ trợ.
+- Áp dụng tư duy Document-driven trong dự án FlashLearn.
+- Duy trì việc học AWS và commit mã nguồn hằng ngày.
+- Chú trọng chất lượng và khả năng bảo trì của hệ thống.
 
-#### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+## Trải Nghiệm Trong Event
+
+Tham gia **FCAJ Community Day** là một trải nghiệm vô cùng ý nghĩa, giúp em tiếp cận nhiều kiến thức thực tế về AI, AWS Cloud và quy trình phát triển phần mềm hiện đại.
+
+### Học hỏi từ các diễn giả
+
+- Hiểu cách duy trì động lực học tập lâu dài thông qua phương pháp xây dựng thói quen và Daily Streak.
+- Tiếp cận tư duy Prompt Engineering bài bản để khai thác AI hiệu quả hơn.
+- Nhận được nhiều chia sẻ giá trị về Foundation, Integrity và tư duy nghề nghiệp của một kỹ sư phần mềm.
+
+### Kiến thức kỹ thuật
+
+- Quan sát demo kiến trúc GenAI được xây dựng trên AWS Serverless.
+- Hiểu cách kết hợp Amazon CloudFront, Amazon S3, API Gateway, AWS Lambda, Amazon Bedrock, DynamoDB và Amazon Cognito để xây dựng một ứng dụng AI hoàn chỉnh.
+- Biết được quy trình BMX Method giúp phát triển phần mềm cùng AI một cách hiệu quả và có tổ chức.
+
+### Bài học rút ra
+
+- AI chỉ là công cụ hỗ trợ, tư duy và kiến thức nền tảng mới là yếu tố quyết định.
+- Luôn bắt đầu từ việc hiểu rõ vấn đề trước khi tìm giải pháp.
+- Thiết kế hệ thống và tài liệu đầy đủ sẽ giúp AI hỗ trợ chính xác hơn trong quá trình phát triển phần mềm.
+
+### Ứng dụng thực tế
+
+Sau sự kiện, em đã thay đổi cách sử dụng AI trong công việc bằng việc xây dựng Prompt có cấu trúc, thiết kế tài liệu trước khi lập trình và áp dụng tư duy Document-driven vào dự án FlashLearn. Đồng thời, em duy trì việc học AWS mỗi ngày nhằm củng cố kiến thức và nâng cao kỹ năng thực tế.
+
+### Một số hình ảnh khi tham gia sự kiện
+
+<p align="center">
+  <img src="/images/4-EventsParticipated/event1.png" width="700">
+</p>
+
+> FCAJ Community Day không chỉ mang lại nhiều kiến thức hữu ích về AI và AWS mà còn giúp em thay đổi tư duy học tập, sử dụng AI hiệu quả hơn và định hướng rõ ràng hơn cho quá trình phát triển nghề nghiệp trong lĩnh vực Cloud và Software Engineering.

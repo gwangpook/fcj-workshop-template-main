@@ -1,59 +1,37 @@
 ---
 title: "Worklog Tuần 10"
-date: 2024-01-01
-weight: 2
+date: 2026-04-17
+weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 10:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Tối ưu hóa hiệu năng hệ thống: Hoàn thiện cơ chế caching trên Amazon CloudFront và tối ưu hóa các truy vấn cơ sở dữ liệu trên RDS PostgreSQL để tăng tốc độ tải trang và phản hồi API.
+* Tự động hóa xử lý nội dung: Triển khai hàm AWS Lambda để tự động xử lý (resize, nén) hình ảnh người dùng tải lên Amazon S3, giúp tối ưu dung lượng lưu trữ.
+* Kiểm chứng bảo mật và luồng API: Hoàn tất kiểm thử các phương thức CRUD của API thông qua API Gateway, đảm bảo cấu hình bảo mật IAM và CORS được thiết lập chính xác.
+* Thiết lập hệ thống giám sát: Cấu hình Amazon CloudWatch để theo dõi hiệu năng của EC2, đặt cảnh báo cho RDS và sử dụng AWS X-Ray để theo dõi, phân tích các cuộc gọi API nội bộ nhằm phát hiện sớm sự cố.
+* Phát triển tính năng cốt lõi: Hoàn thiện luồng dữ liệu cho tính năng gợi ý học tập thông minh dựa trên lịch sử của người dùng.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 2 | Họp nhóm lên kế hoạch tối ưu hóa truy vấn trên RDS PostgreSQL và thiết lập cơ chế caching cho CloudFront để cải thiện tốc độ tải nội dung. | 21/06/2026 | 22/06/2026 | |
+| 3 | Thực hành tối ưu hóa xử lý ảnh, triển khai Lambda để tự động resize và nén ảnh người dùng tải lên S3 nhằm giảm dung lượng lưu trữ. | 22/06/2026 | 23/06/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 4 | Kiểm thử API sử dụng Postman để kiểm tra các phương thức CRUD của API Gateway, đảm bảo cấu hình CORS và bảo mật IAM hoạt động chính xác. | 23/06/2026 | 24/06/2026 | |
+| 5 | Họp nhóm phát triển tính năng gợi ý học tập thông minh dựa trên lịch sử học của người dùng và hoàn thiện luồng dữ liệu cho tính năng này. | 24/06/2026 | 26/06/2026 | |
+| 6 | Thiết lập giám sát hệ thống cấu hình CloudWatch để theo dõi hiệu năng của EC2 (ARM64), cài đặt cảnh báo cho RDS và sử dụng X-Ray để theo dõi các cuộc gọi API nội bộ. | 26/06/2026 | 28/06/2026 | https://cloudjourney.awsstudygroup.com/ |
 
 ### Kết quả đạt được tuần 10:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Đã hoàn thiện cơ chế caching trên Amazon CloudFront và tinh chỉnh các truy vấn cơ sở dữ liệu trên RDS PostgreSQL, giúp cải thiện đáng kể tốc độ phản hồi của hệ thống.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Triển khai thành công hàm AWS Lambda để tự động hóa quy trình xử lý hình ảnh (resize, nén) tải lên Amazon S3, tối ưu hiệu quả lưu trữ.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Hoàn tất kiểm thử các phương thức CRUD qua API Gateway; đảm bảo cấu hình bảo mật IAM và CORS vận hành ổn định.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Cấu hình thành công Amazon CloudWatch để theo dõi hiệu năng EC2 và đặt cảnh báo cho RDS; tích hợp AWS X-Ray để phân tích luồng cuộc gọi API nội bộ, giúp phát hiện và khắc phục sự cố nhanh chóng.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Hoàn thiện thành công luồng dữ liệu cho tính năng gợi ý học tập thông minh dựa trên lịch sử tương tác của người dùng trên nền tảng.

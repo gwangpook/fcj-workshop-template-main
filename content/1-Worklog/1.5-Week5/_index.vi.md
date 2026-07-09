@@ -1,59 +1,34 @@
 ---
 title: "Worklog Tuần 5"
-date: 2024-01-01
-weight: 1
+date: 2026-04-17
+weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 5:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Nắm vững các giải pháp lưu trữ đa dạng trên AWS và quy trình quản lý vòng đời dữ liệu.
+* Thành thạo việc ứng dụng các dịch vụ AI/ML, công cụ phân tích dữ liệu và tích hợp hệ thống trong các bài tập thực hành cụ thể.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 2 | Nghiên cứu các phương thức lưu trữ AWS: Object Storage (S3), Block Storage (EBS), File Storage (EFS), In-memory (ElastiCache) và quy trình quản lý vòng đời/sao lưu dữ liệu. | 17/05/2026 | 20/05/2026 | [Tài liệu S3 / Tài liệu EBS / Tài liệu EFS](https://docs.aws.amazon.com/efs/) |
+| 3 | Tìm hiểu về hệ sinh thái AI/ML: các dịch vụ AI tích hợp sẵn, công cụ Machine Learning (SageMaker, CodeWhisperer), cấu trúc hạ tầng và quy trình triển khai ML chuẩn trên AWS. | 20/05/2026 | 22/05/2026 | [Tài liệu SageMaker / Dịch vụ AI của AWS](https://docs.aws.amazon.com/sagemaker/) |
+| 4 | Khám phá các dịch vụ phân tích dữ liệu: Truy vấn serverless (Athena), trực quan hóa dữ liệu (QuickSight), xử lý luồng (Kinesis), kho dữ liệu (Redshift) và chuẩn bị dữ liệu (Glue). | 22/05/2026 | 23/05/2026 | [Tài liệu Athena / Tài liệu Kinesis / Tài liệu Redshift](https://docs.aws.amazon.com/kinesis/) |
+| 5 | Tìm hiểu các dịch vụ bổ trợ: Cơ chế kết nối ứng dụng (EventBridge, SQS, SNS), giải pháp hỗ trợ gửi email (Connect, SES) và công cụ DevOps (CodePipeline, CodeCommit). | 23/05/2026 | 24/05/2026 | [Tài liệu EventBridge / Tài liệu SQS / Tài liệu SNS](https://docs.aws.amazon.com/eventbridge/) |
+| 6 | Thực hành tổng hợp: Cấu hình S3 Lifecycle, tạo model ML với SageMaker, xây dựng data pipeline (Kinesis, Glue) và triển khai hệ thống dựa trên sự kiện (EventBridge). | 24/05/2026 | 24/05/2026 | [Hướng dẫn thực hành AWS](https://aws.amazon.com/vi/getting-started/hands-on/) |
 
 ### Kết quả đạt được tuần 5:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Đã nghiên cứu và nắm vững các mô hình lưu trữ AWS bao gồm S3, EBS, EFS, ElastiCache, đồng thời biết cách thiết lập chính sách vòng đời và sao lưu dữ liệu.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Hiểu rõ các dịch vụ AI tích hợp sẵn, làm chủ các công cụ Machine Learning như SageMaker và CodeWhisperer, cùng quy trình triển khai ML chuẩn trên AWS.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Sử dụng thành thạo các dịch vụ phân tích dữ liệu từ truy vấn serverless (Athena), kho dữ liệu (Redshift), xử lý luồng (Kinesis) đến xử lý ETL (Glue).
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Nắm bắt các kết nối ứng dụng thông qua EventBridge, SQS, SNS và sử dụng hiệu quả bộ công cụ phát triển DevOps như CodePipeline.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Hoàn thành các bài tập quan trọng như cấu hình S3 Lifecycle, huấn luyện mô hình ML với SageMaker, xây dựng quy trình dữ liệu và triển khai kiến trúc hướng sự kiện (event-driven) với EventBridge.

@@ -1,39 +1,36 @@
 ---
-title: "Self-Assessment"
-date: 2024-01-01
+title: "Self Assessment"
+date: 2026-04-17
 weight: 6
 chapter: false
 pre: " <b> 6. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+Throughout my internship at **FCAJ Cloud Journey**, from **April 17, 2026** to **July 10, 2026**, I had the opportunity to apply the knowledge acquired during my university studies in a professional working environment while continuously developing both my technical expertise and soft skills.
 
-During my internship at **[Company/Organization Name]** from **[start date]** to **[end date]**, I had the opportunity to learn, practice, and apply the knowledge acquired in school to a real-world working environment.  
-I participated in **[briefly describe the main project or task]**, through which I improved my skills in **[list skills: programming, analysis, reporting, communication, etc.]**.  
+During the internship, I was involved in developing cloud-based solutions on AWS, exploring the practical application of Artificial Intelligence in software development, preparing workshop materials and technical documentation, and contributing to the development of the **FlashLearn** project. These responsibilities significantly enhanced my analytical thinking, problem-solving ability, technical documentation skills, teamwork, and hands-on experience with AWS services.
 
-In terms of work ethic, I always strived to complete tasks well, complied with workplace regulations, and actively engaged with colleagues to improve work efficiency.
+From a professional perspective, I consistently completed assigned tasks on schedule, followed the team's development processes, and proactively communicated with my mentor and teammates whenever necessary. This collaborative working environment enabled me to improve not only my technical capabilities but also my communication and teamwork skills.
 
-To objectively reflect on my internship period, I would like to evaluate myself based on the following criteria:
+To provide an objective reflection on my internship performance, I have assessed myself based on the following criteria.
 
-| No. | Criteria                            | Description                                                                                      | Good | Fair | Average |
-| --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | ---- | ---- | ------- |
-| 1   | **Professional knowledge & skills** | Understanding of the field, applying knowledge in practice, proficiency with tools, work quality | ✅    | ☐    | ☐       |
-| 2   | **Ability to learn**                | Ability to absorb new knowledge and learn quickly                                                | ☐    | ✅    | ☐       |
-| 3   | **Proactiveness**                   | Taking initiative, seeking out tasks without waiting for instructions                            | ✅    | ☐    | ☐       |
-| 4   | **Sense of responsibility**         | Completing tasks on time and ensuring quality                                                    | ✅    | ☐    | ☐       |
-| 5   | **Discipline**                      | Adhering to schedules, rules, and work processes                                                 | ☐    | ☐    | ✅       |
-| 6   | **Progressive mindset**             | Willingness to receive feedback and improve oneself                                              | ☐    | ✅    | ☐       |
-| 7   | **Communication**                   | Presenting ideas and reporting work clearly                                                      | ☐    | ✅    | ☐       |
-| 8   | **Teamwork**                        | Working effectively with colleagues and participating in teams                                   | ✅    | ☐    | ☐       |
-| 9   | **Professional conduct**            | Respecting colleagues, partners, and the work environment                                        | ✅    | ☐    | ☐       |
-| 10  | **Problem-solving skills**          | Identifying problems, proposing solutions, and showing creativity                                | ☐    | ✅    | ☐       |
-| 11  | **Contribution to project/team**    | Work effectiveness, innovative ideas, recognition from the team                                  | ✅    | ☐    | ☐       |
-| 12  | **Overall**                         | General evaluation of the entire internship period                                               | ✅    | ☐    | ☐       |
+| No. | Evaluation Criteria              | Description                                        | Good | Fair | Average |
+|:---:|----------------------------------|----------------------------------------------------|:----:|:----:|:-------:|
+| 1 | **Technical Knowledge & Skills** | Applying technical knowledge and delivering quality work | ✅ | ☐ | ☐ |
+| 2 | **Learning Ability** | Learning new technologies and adapting quickly | ✅ | ☐ | ☐ |
+| 3 | **Proactiveness** | Taking initiative and working independently | ☐ | ✅ | ☐ |
+| 4 | **Responsibility** | Completing tasks on time with high quality | ✅ | ☐ | ☐ |
+| 5 | **Discipline** | Following company rules and work processes | ✅ | ☐ | ☐ |
+| 6 | **Growth Mindset** | Accepting feedback and improving continuously | ✅ | ☐ | ☐ |
+| 7 | **Communication Skills** | Communicating ideas and reporting clearly | ☐ | ✅ | ☐ |
+| 8 | **Teamwork** | Collaborating effectively with team members | ✅ | ☐ | ☐ |
+| 9 | **Professional Conduct** | Demonstrating professionalism and respect | ✅ | ☐ | ☐ |
+| 10 | **Problem-Solving Ability** | Analyzing issues and proposing solutions | ☐ | ✅ | ☐ |
+| 11 | **Contribution** | Contributing positively to the project and team | ✅ | ☐ | ☐ |
+| 12 | **Overall Performance** | Overall assessment of internship performance | ✅ | ☐ | ☐ |
 
-### Needs Improvement
+## Areas for Improvement
 
-* Strengthen discipline and strictly comply with the rules and regulations of the company or any organization  
-* Improve problem-solving thinking  
-* Enhance communication skills in both daily interactions and professional contexts, including handling situations effectively
+- Develop greater confidence when presenting ideas during meetings and technical discussions.
+- Strengthen research skills and further improve problem-solving abilities in order to address technical challenges more efficiently.
+- Expand my knowledge of advanced AWS Cloud services beyond the topics covered during workshops to better meet real-world business and project requirements.

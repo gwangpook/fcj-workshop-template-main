@@ -1,57 +1,37 @@
 ---
 title: "Week 11 Worklog"
-date: 2024-01-01
-weight: 2
+date: 2026-04-17
+weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 11 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Design the core APIs.
+* Build the database.
+* Implement the content approval workflow.
+* Optimize resource management.
+* Finalize the technical documentation.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks to be completed this week:
 
+| Day | Task | Start Date | Completion Date | Reference Materials |
+| --- | --- | --- | --- | --- |
+| 2 | Design APIs for the Flashcard (POST/Create) and Quiz features, including input validation (maximum character limits and question format validation). | 28/06/2026 | 29/06/2026 | [Building RESTful APIs with API Gateway](https://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started.html) |
+| 3 | Create the `flashcards` and `quiz_results` tables with processing status fields, and develop an administrative interface for managing Flashcard content. | 29/06/2026 | 30/06/2026 | |
+| 4 | Implement content status management (Pending Approval/Approved) and trigger AWS Lambda to update the search index after approval. | 01/06/2026 | 02/06/2026 | |
+| 5 | Create a Presigned URL API for Amazon S3 to allow users to upload learning images and audio files, and configure CloudFront URLs for content delivery. | 02/06/2026 | 03/06/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 6 | Review the technical documentation, finalize the Entity Relationship Diagram (ERD) for users, flashcards, and quiz results, and prepare for Week 12. | 03/06/2026 | 05/06/2026 | [Entity Relationship Diagram Design Guide](https://lucid.co/diagram/erd/tutorial) |
 
-### Week 11 Achievements:
+### Achievements for Week 11:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Successfully completed the design of all APIs for the Flashcard and Quiz features, including a robust input validation mechanism to ensure data integrity.
 
-* Successfully created and configured an AWS Free Tier account.
+* Completed the design of the `flashcards` and `quiz_results` tables in PostgreSQL, while successfully developing an administrative dashboard for moderating learning content.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Successfully implemented the content approval workflow (Pending Approval/Approved) and integrated AWS Lambda to automatically update the search index immediately after content approval.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Implemented the Amazon S3 Presigned URL mechanism integrated with CloudFront, enabling users to securely and efficiently upload and access learning resources, including images and audio files.
 
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Finalized the Entity Relationship Diagram (ERD) for key entities, including users, flashcards, and learning results, providing a solid foundation for the subsequent development phases.

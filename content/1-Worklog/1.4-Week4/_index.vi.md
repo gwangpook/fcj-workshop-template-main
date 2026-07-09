@@ -1,59 +1,40 @@
 ---
 title: "Worklog Tuần 4"
-date: 2024-01-01
-weight: 1
+date: 2026-04-17
+weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 4:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Phân tích và tổng hợp tài liệu về các giải pháp di chuyển cơ sở dữ liệu trên nền tảng AWS.
+* Tìm hiểu chi tiết và hệ thống hóa kiến thức về các dịch vụ hạ tầng mạng, bảo mật và phân phối nội dung của AWS.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | Xác định mục tiêu và phân tích các rào cản trong quá trình chuyển đổi cơ sở dữ liệu. | 10/05/2026 | 14/05/2026 | [AWS Database Migration Service](https://aws.amazon.com/dms/) |
+| 3 | Tìm hiểu bộ công cụ chuyển đổi của AWS gồm AWS Database Migration Service (DMS), AWS Schema Conversion Tool (SCT), AWS Snow Family và AWS DataSync cùng các kịch bản ứng dụng thực tế. | 14/05/2026 | 15/05/2026 | [AWS Database Migration Service](https://aws.amazon.com/dms/) |
+| 4 | Nắm vững quy trình di chuyển dữ liệu từ giai đoạn đánh giá, chuẩn bị, thực hiện đến kiểm thử và tối ưu hóa hệ thống. | 15/05/2026 | 16/05/2026 | [Database Migration Strategies](https://www.google.com/search?q=https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/database-migration.html) |
+| 5 | Nghiên cứu kiến trúc mạng AWS với Amazon VPC, bao gồm Subnet, Route Table, Internet Gateway, NAT Gateway, Security Group, cùng các phương thức kết nối PrivateLink, Site-to-Site VPN và AWS Direct Connect. | 16/05/2026 | 17/05/2026 | [Amazon VPC Connectivity Options](https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/introduction.html) |
+| 6 | Tìm hiểu chức năng của Amazon Route 53 và Amazon CloudFront; xây dựng sơ đồ tổng quan kiến trúc mạng AWS phục vụ quản lý DNS và phân phối nội dung. | 17/05/2026 | 17/05/2026 | [Amazon Route 53 / Amazon CloudFront](https://aws.amazon.com/cloudfront/) |
 
 ### Kết quả đạt được tuần 4:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Hoàn thành nghiên cứu các giải pháp di chuyển cơ sở dữ liệu trên AWS; hiểu rõ các thách thức và quy trình triển khai trong từng giai đoạn.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Nắm vững chức năng và kịch bản sử dụng của các dịch vụ AWS Database Migration Service (DMS), AWS Schema Conversion Tool (SCT), AWS Snow Family và AWS DataSync.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Hiểu quy trình di chuyển cơ sở dữ liệu từ bước đánh giá, chuyển đổi lược đồ (Schema Conversion), đồng bộ dữ liệu đến kiểm thử và tối ưu hệ thống.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Nghiên cứu kiến trúc mạng AWS với Amazon VPC, bao gồm Subnet, Route Table, Internet Gateway, NAT Gateway và Security Group.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+* Hiểu cơ chế kết nối bảo mật giữa AWS và hệ thống On-premises thông qua AWS PrivateLink, Site-to-Site VPN và AWS Direct Connect.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+* Nắm được chức năng của Amazon Route 53 và Amazon CloudFront trong quản lý DNS và phân phối nội dung (CDN).
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* Hoàn thành sơ đồ tổng quan kiến trúc mạng AWS, nâng cao khả năng phân tích và thiết kế hệ thống Cloud.
 
-
+* Củng cố kỹ năng đọc hiểu tài liệu kỹ thuật AWS và vận dụng kiến thức vào thiết kế hạ tầng Cloud thực tế.

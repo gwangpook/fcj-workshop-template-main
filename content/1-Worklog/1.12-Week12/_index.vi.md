@@ -1,58 +1,37 @@
 ---
 title: "Worklog Tuần 12"
-date: 2024-01-01
-weight: 2
+date: 2026-04-17
+weight: 12
 chapter: false
 pre: " <b> 1.12 </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 ### Mục tiêu tuần 12:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Hoàn thiện tính năng tương tác cộng đồng.
+* Xây dựng logic hệ thống.
+* Triển khai hệ thống bình luận phân cấp.
+* Lưu vết hoạt động người dùng.
+* Hoàn tất tài liệu và bàn giao.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 2 | Họp nhóm thiết kế API tương tác cộng đồng cho FlashLearn (bình chọn Flashcard, xếp hạng Quiz). | 05/06/2026 | 06/06/2026 | |
+| 3 | Triển khai logic tính điểm xử lý logic cộng/trừ điểm xếp hạng khi người dùng tương tác (upvote/downvote hoặc hoàn thành Quiz). | 06/06/2026 | 07/06/2026 | |
+| 4 | Thiết kế hệ thống bình luận xây dựng cấu trúc dữ liệu cho bình luận phân cấp (hỗ trợ reply), cập nhật bộ đếm bình luận cho từng nội dung học tập. | 07/06/2026 | 08/06/2026 | |
+| 5 | Hoàn thiện tính năng bổ sung: Phát triển tính năng "Yêu thích" (Favorite) Flashcard/Quiz và lưu vết hoạt động người dùng vào bảng user_activities. | 08/06/2026 | 09/06/2026 | |
+| 6 | Họp nhóm: Hoàn thiện tài liệu API cuối cùng, tổng hợp sơ đồ ERD toàn hệ thống và chuẩn bị hồ sơ bàn giao dự án. | 09/06/2026 | 10/06/2026 | |
 
 ### Kết quả đạt được tuần 12:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Triển khai thành công các API cho phép người dùng bình chọn (upvote/downvote) Flashcard và xếp hạng các bộ Quiz, nâng cao trải nghiệm học tập xã hội.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Xây dựng thành công logic xử lý cộng/trừ điểm xếp hạng tự động, đảm bảo hệ thống phản hồi chính xác và nhất quán sau mỗi tương tác của người dùng.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Triển khai cấu trúc dữ liệu cho phép bình luận phân cấp, hỗ trợ tính năng phản hồi (reply) và tự động cập nhật bộ đếm bình luận theo từng nội dung.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Phát triển tính năng "Yêu thích" (Favorite) và thiết lập bảng `user_activities` để ghi nhận hoạt động, hỗ trợ phân tích hành vi người dùng trên hệ thống.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Tổng hợp và hoàn thiện toàn bộ sơ đồ ERD, tài liệu kỹ thuật API và hồ sơ bàn giao dự án, đảm bảo hệ thống sẵn sàng cho việc đưa vào vận hành.
