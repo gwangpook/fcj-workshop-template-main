@@ -1,4 +1,4 @@
----
+﻿---
 title: "Event 1"
 date: 2026-04-17
 weight: 1
@@ -143,7 +143,8 @@ Sau sự kiện, em đã thay đổi cách sử dụng AI trong công việc b�
 ### Một số hình ảnh khi tham gia sự kiện
 
 <p align="center">
-  <img src="/images/4-EventsParticipated/event1.png" width="700">
+  <img src="/fcj-workshop-template-main/images/4-EventsParticipated/event1.png" width="700">
 </p>
 
 > FCAJ Community Day không chỉ mang lại nhiều kiến thức hữu ích về AI và AWS mà còn giúp em thay đổi tư duy học tập, sử dụng AI hiệu quả hơn và định hướng rõ ràng hơn cho quá trình phát triển nghề nghiệp trong lĩnh vực Cloud và Software Engineering.
+

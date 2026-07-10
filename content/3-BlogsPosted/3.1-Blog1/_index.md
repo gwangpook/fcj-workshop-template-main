@@ -1,4 +1,4 @@
----
+﻿---
 title: "Blog 1"
 date: 2026-04-17
 weight: 1
@@ -24,7 +24,7 @@ Session Policies are particularly valuable in microservices architectures, where
 ## Illustration
 
 <p align="center">
-  <img src="/images/3-BlogsPosted/Blog1/img1.png" width="700">
+  <img src="/fcj-workshop-template-main/images/3-BlogsPosted/Blog1/img1.png" width="700">
 </p>
 
 <p align="center">
@@ -34,3 +34,4 @@ Session Policies are particularly valuable in microservices architectures, where
 ## Original Post
 
 [🔗 View the original Facebook post](https://www.facebook.com/share/p/1Bf61McbW7/)
+

@@ -23,7 +23,7 @@ Các điểm chính cần nắm:
 Kiến trúc này đặc biệt phù hợp với các hệ thống Microservices, xử lý bất đồng bộ, tích hợp đa hệ thống hoặc môi trường đa tài khoản AWS, nơi yêu cầu khả năng mở rộng cao, giảm sự phụ thuộc giữa các dịch vụ và tăng khả năng chịu lỗi của toàn bộ hệ thống.
 
 <p align="center">
-  <img src="/images/3-BlogsPosted/Blog2/img2.png" width="700">
+  <img src="/fcj-workshop-template-main/images/3-BlogsPosted/Blog2/img2.png" width="700">
 </p>
 
 <p align="center">

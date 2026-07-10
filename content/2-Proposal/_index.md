@@ -1,4 +1,4 @@
----
+﻿---
 title: "Project Proposal"
 date: 2026-04-14
 weight: 2
@@ -47,7 +47,7 @@ From a technical perspective, the AWS-based architecture improves scalability, s
 FlashLearn is deployed within an Amazon VPC spanning two Availability Zones to provide high availability and fault tolerance in the event of infrastructure failures.
 
 <p align="center">
-  <img src="/images/2-Proposal/img4.png" width="700">
+  <img src="/fcj-workshop-template-main/images/2-Proposal/img4.png" width="700">
 </p>
 
 ### AWS Services Used
@@ -169,3 +169,4 @@ The estimated deployment cost can be calculated using the **AWS Pricing Calculat
 - Scalable infrastructure capable of accommodating future growth.
 - Automated background operations powered by Serverless services.
 - A reusable cloud architecture suitable for future enterprise-scale AWS projects.
+

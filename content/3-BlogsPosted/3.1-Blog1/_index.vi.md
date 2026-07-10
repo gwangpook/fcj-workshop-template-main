@@ -1,4 +1,4 @@
----
+﻿---
 title: "Blog 1"
 date: 2026-04-17
 weight: 1
@@ -25,7 +25,7 @@ Session Policies đặc biệt hữu ích trong các hệ thống Microservices,
 ## Hình ảnh minh họa
 
 <p align="center">
-  <img src="/images/3-BlogsPosted/Blog1/img1.png" width="700">
+  <img src="/fcj-workshop-template-main/images/3-BlogsPosted/Blog1/img1.png" width="700">
 </p>
 
 <p align="center">
@@ -35,3 +35,4 @@ Session Policies đặc biệt hữu ích trong các hệ thống Microservices,
 ## Link bài viết
 
 [🔗 Xem bài viết trên Facebook](https://www.facebook.com/share/p/1Bf61McbW7/)
+

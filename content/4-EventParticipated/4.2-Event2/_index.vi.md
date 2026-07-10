@@ -1,4 +1,4 @@
----
+﻿---
 title: "Event 2"
 date: 2026-01-17
 weight: 3
@@ -85,7 +85,8 @@ Tham gia **AWS GameDay - 8 Đội Tranh Hùng** với vai trò khán giả mang 
 #### Một số hình ảnh khi tham gia sự kiện
 
 <p align="center">
-  <img src="/images/4-EventsParticipated/img6.png" width="700">
+  <img src="/fcj-workshop-template-main/images/4-EventsParticipated/img6.png" width="700">
 </p>
 
 > Sự kiện giúp em củng cố kiến thức AWS, rèn luyện tư duy giải quyết vấn đề và tạo thêm động lực tiếp tục học tập, thực hành để chuẩn bị cho các chứng chỉ AWS cũng như công việc trong lĩnh vực Cloud Computing.
+

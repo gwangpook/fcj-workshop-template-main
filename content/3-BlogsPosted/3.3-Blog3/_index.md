@@ -1,4 +1,4 @@
----
+﻿---
 title: "Blog 3"
 date: 2026-04-17
 weight: 3
@@ -29,7 +29,7 @@ An AWS Data Lake architecture built with Amazon S3, AWS Glue, and Amazon Athena 
 ## Architecture Diagram
 
 <p align="center">
-  <img src="/images/3-BlogsPosted/Blog3/img3.png" width="700">
+  <img src="/fcj-workshop-template-main/images/3-BlogsPosted/Blog3/img3.png" width="700">
 </p>
 
 <p align="center">
@@ -39,3 +39,4 @@ An AWS Data Lake architecture built with Amazon S3, AWS Glue, and Amazon Athena 
 ## Article Link
 
 [🔗 View the Facebook Post](https://web.facebook.com/share/p/1Bn86KFzSx/?_rdc=1&_rdr)
+

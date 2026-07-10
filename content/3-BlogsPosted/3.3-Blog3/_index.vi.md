@@ -1,4 +1,4 @@
----
+﻿---
 title: "Blog 3"
 date: 2026-04-17
 weight: 3
@@ -24,7 +24,7 @@ Kiến trúc Data Lake sử dụng Amazon S3, AWS Glue và Amazon Athena là gi�
 ## Hình ảnh minh họa
 
 <p align="center">
-  <img src="/images/3-BlogsPosted/Blog3/img3.png" width="700">
+  <img src="/fcj-workshop-template-main/images/3-BlogsPosted/Blog3/img3.png" width="700">
 </p>
 
 <p align="center">
@@ -34,4 +34,5 @@ Kiến trúc Data Lake sử dụng Amazon S3, AWS Glue và Amazon Athena là gi�
 ## Link bài viết
 
 [🔗 Xem bài viết trên Facebook](https://web.facebook.com/share/p/1Bn86KFzSx/?_rdc=1&_rdr)
+
 
