@@ -1,4 +1,4 @@
----
+﻿---
 title: "Create S3 Bucket & Configure Permissions"
 date: 2026-07-09
 weight: 1
@@ -27,7 +27,7 @@ pre: "<b>5.6.1. </b>"
 
 1. Confirm unchecking public access block → Click **Create bucket**
 
-![Create S3 Bucket](/images/5-Workshop/5.6-s3/5.6.1/1.png)
+![`Create S3 Bucket](/fcj-workshop-template-main/images/5-Workshop/5.6-s3/5.6.1/1.png)
 
 ---
 
@@ -105,7 +105,7 @@ EC2 needs permissions to read and write to S3. The best practice is to use an **
    - **Actions** → **Security** → **Modify IAM role**
    - Select `flashlearn-ec2-role` → **Update IAM role**
 
-![Attach IAM Role to EC2](/images/5-Workshop/5.6-s3/5.6.1/2.png)
+![`Attach IAM Role to EC2](/fcj-workshop-template-main/images/5-Workshop/5.6-s3/5.6.1/2.png)
 
 ---
 
@@ -116,3 +116,4 @@ After this step, you will have:
 -  Bucket Policy allowing public read access
 -  CORS configured to allow browser uploads
 -  IAM Role attached to EC2 with S3 permissions
+

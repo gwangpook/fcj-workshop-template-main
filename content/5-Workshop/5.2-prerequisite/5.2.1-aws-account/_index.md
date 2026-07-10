@@ -1,4 +1,4 @@
----
+﻿---
 title: "Create an AWS Account"
 date: 2026-07-09
 weight: 1
@@ -71,7 +71,7 @@ To avoid unexpected charges, configure a budget alert:
 
 >  **Zero spend budget** sends an email as soon as any service incurs a charge (even $0.01), helping you detect issues promptly.
 
-![Budget Setup](/images/5-Workshop/5.2-Prerequisite/budget.png)
+![`Budget Setup](/fcj-workshop-template-main/images/5-Workshop/5.2-Prerequisite/budget.png)
 
 ---
 
@@ -81,3 +81,4 @@ After this step, you will have:
 -  An AWS account with MFA enabled
 -  IAM User `flashlearn-admin` with Administrator permissions
 -  A $0 budget alert to protect against unexpected costs
+

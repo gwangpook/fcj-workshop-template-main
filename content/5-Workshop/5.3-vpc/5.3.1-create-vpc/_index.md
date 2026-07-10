@@ -1,4 +1,4 @@
----
+﻿---
 title: "Create VPC & Subnets"
 date: 2026-07-09
 weight: 1
@@ -17,7 +17,7 @@ In this step, we will create a new VPC and divide it into specific subnets for e
 
 2. Click **Create VPC**
 
-![VPC Dashboard](/images/5-Workshop/5.3-S3-vpc/5.3.1.1.png)
+![`VPC Dashboard](/fcj-workshop-template-main/images/5-Workshop/5.3-S3-vpc/5.3.1.1.png)
 
 3. Configure the VPC:
 
@@ -31,7 +31,7 @@ In this step, we will create a new VPC and divide it into specific subnets for e
 
 4. Click **Create VPC**
 
-![Create VPC](/images/5-Workshop/5.3-S3-vpc/5.3.1-vpc-created.png)
+![`Create VPC](/fcj-workshop-template-main/images/5-Workshop/5.3-S3-vpc/5.3.1-vpc-created.png)
 
 ---
 
@@ -52,7 +52,7 @@ The Public Subnet will host the EC2 instance running the FlashLearn application.
 
 3. Click **Create subnet**
 
-![Create Public Subnet](/images/5-Workshop/5.3-S3-vpc/5.3.1.2.png)
+![`Create Public Subnet](/fcj-workshop-template-main/images/5-Workshop/5.3-S3-vpc/5.3.1.2.png)
 
 4. After creation, **enable Auto-assign public IP**:
    - Select subnet `flashlearn-public-subnet`
@@ -87,8 +87,8 @@ Private Subnets will host the RDS database, with no direct Internet connection.
 
 4. Click **Create subnet**
 
-![Create Private Subnets](/images/5-Workshop/5.3-S3-vpc/5.3.1.3.png)
-![Create Private Subnets](/images/5-Workshop/5.3-S3-vpc/5.3.1.4.png)
+![`Create Private Subnets](/fcj-workshop-template-main/images/5-Workshop/5.3-S3-vpc/5.3.1.3.png)
+![`Create Private Subnets](/fcj-workshop-template-main/images/5-Workshop/5.3-S3-vpc/5.3.1.4.png)
 ---
 
 ## Result
@@ -98,3 +98,4 @@ After this step, you will have:
 -  Public Subnet `10.0.1.0/24` in `ap-southeast-1a`
 -  Private Subnet 1 `10.0.2.0/24` in `ap-southeast-1a`
 -  Private Subnet 2 `10.0.3.0/24` in `ap-southeast-1b`
+

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Khởi tạo EC2 Instance"
 date: 2026-07-09
 weight: 1
@@ -47,7 +47,7 @@ chmod 400 flashlearn-key.pem
    - Chọn **Ubuntu Server 22.04 LTS (HVM)**
    - Architecture: **64-bit (x86)**
 
-![Chọn Ubuntu AMI](/images/5-Workshop/5.5-ec2/5.5.1/1.png)
+![`Chọn Ubuntu AMI](/fcj-workshop-template-main/images/5-Workshop/5.5-ec2/5.5.1/1.png)
 
 4. **Instance type**:
    - Chọn **t3.micro** (Free Tier eligible)
@@ -70,7 +70,7 @@ chmod 400 flashlearn-key.pem
 
 8. Nhấn **Launch instance**
 
-![EC2 Instance Running](/images/5-Workshop/5.5-ec2/5.5.1/2.png)
+![`EC2 Instance Running](/fcj-workshop-template-main/images/5-Workshop/5.5-ec2/5.5.1/2.png)
 
 ---
 
@@ -110,3 +110,4 @@ Sau bước này, bạn đã có:
 -  EC2 Ubuntu 22.04 đang chạy trong Public Subnet
 -  Key Pair `flashlearn-key.pem` để SSH
 -  Kết nối SSH vào EC2 thành công
+

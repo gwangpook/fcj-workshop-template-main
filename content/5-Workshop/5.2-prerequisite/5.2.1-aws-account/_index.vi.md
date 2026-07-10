@@ -1,4 +1,4 @@
----
+﻿---
 title: "Tạo tài khoản AWS"
 date: 2026-07-09
 weight: 1
@@ -71,7 +71,7 @@ Sau khi đăng ký, **bắt buộc bật MFA** cho tài khoản root để bảo
 
 >  **Zero spend budget** sẽ gửi email ngay khi bất kỳ dịch vụ nào phát sinh chi phí (kể cả $0.01), giúp bạn phát hiện kịp thời.
 
-![Cấu hình Budget](/images/5-Workshop/5.2-Prerequisite/budget.png)
+![`Cấu hình Budget](/fcj-workshop-template-main/images/5-Workshop/5.2-Prerequisite/budget.png)
 
 ---
 
@@ -81,3 +81,4 @@ Sau bước này, bạn đã có:
 -  Tài khoản AWS với MFA được bật
 -  IAM User `flashlearn-admin` với quyền Administrator
 -  Cảnh báo ngân sách $0 để bảo vệ chi phí
+

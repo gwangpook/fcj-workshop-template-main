@@ -1,4 +1,4 @@
----
+﻿---
 title: "Tạo RDS PostgreSQL"
 date: 2026-07-09
 weight: 1
@@ -29,7 +29,7 @@ Trước khi tạo RDS, cần tạo **Subnet Group** để chỉ định RDS s�
 
 4. Nhấn **Create**
 
-![Tạo DB Subnet Group](/images/5-Workshop/5.4-rds/5.4.1/1.png)
+![`Tạo DB Subnet Group](/fcj-workshop-template-main/images/5-Workshop/5.4-rds/5.4.1/1.png)
 
 ---
 
@@ -83,7 +83,7 @@ Trước khi tạo RDS, cần tạo **Subnet Group** để chỉ định RDS s�
 
 8. Nhấn **Create database** và chờ khoảng **5-10 phút** để database khởi tạo
 
-![RDS Đang Khởi Tạo](/images/5-Workshop/5.4-rds/5.4.1/2.png)
+![`RDS Đang Khởi Tạo](/fcj-workshop-template-main/images/5-Workshop/5.4-rds/5.4.1/2.png)
 
 ---
 
@@ -94,7 +94,7 @@ Sau khi RDS ở trạng thái **Available**, ghi lại **Endpoint** để dùng 
 1. Chọn database `flashlearn-db` → tab **Connectivity & security**
 2. Sao chép **Endpoint** (ví dụ: `flashlearn-db.xxxx.ap-southeast-1.rds.amazonaws.com`)
 
-![RDS Endpoint](/images/5-Workshop/5.4-rds/5.4.1/3.png)
+![`RDS Endpoint](/fcj-workshop-template-main/images/5-Workshop/5.4-rds/5.4.1/3.png)
 
 ---
 
@@ -104,3 +104,4 @@ Sau bước này, bạn đã có:
 -  DB Subnet Group trong Private Subnets
 -  RDS PostgreSQL `flashlearn-db` ở trạng thái Available
 -  Đã lưu thông tin kết nối (Endpoint, Username, Password)
+

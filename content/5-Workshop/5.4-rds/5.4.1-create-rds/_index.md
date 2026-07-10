@@ -1,4 +1,4 @@
----
+﻿---
 title: "Create RDS PostgreSQL"
 date: 2026-07-09
 weight: 1
@@ -29,7 +29,7 @@ Before creating RDS, you need to create a **Subnet Group** to specify which Priv
 
 4. Click **Create**
 
-![Create DB Subnet Group](/images/5-Workshop/5.4-rds/5.4.1/1.png)
+![`Create DB Subnet Group](/fcj-workshop-template-main/images/5-Workshop/5.4-rds/5.4.1/1.png)
 
 ---
 
@@ -83,7 +83,7 @@ Before creating RDS, you need to create a **Subnet Group** to specify which Priv
 
 8. Click **Create database** and wait approximately **5–10 minutes** for the database to initialize
 
-![RDS Creating](/images/5-Workshop/5.4-rds/5.4.1/2.png)
+![`RDS Creating](/fcj-workshop-template-main/images/5-Workshop/5.4-rds/5.4.1/2.png)
 
 ---
 
@@ -94,7 +94,7 @@ After RDS reaches **Available** status, record the **Endpoint** for use in later
 1. Select database `flashlearn-db` → **Connectivity & security** tab
 2. Copy the **Endpoint** (e.g., `flashlearn-db.xxxx.ap-southeast-1.rds.amazonaws.com`)
 
-![RDS Endpoint](/images/5-Workshop/5.4-rds/5.4.1/3.png)
+![`RDS Endpoint](/fcj-workshop-template-main/images/5-Workshop/5.4-rds/5.4.1/3.png)
 
 ---
 
@@ -104,3 +104,4 @@ After this step, you will have:
 -  DB Subnet Group configured in Private Subnets
 -  RDS PostgreSQL `flashlearn-db` in Available status
 -  Connection details saved (Endpoint, Username, Password)
+

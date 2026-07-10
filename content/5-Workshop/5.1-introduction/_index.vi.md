@@ -1,4 +1,4 @@
----
+﻿---
 title: "Giới thiệu"
 date: 2026-07-09
 weight: 1
@@ -25,7 +25,7 @@ pre: "<b>5.1. </b>"
 
 Hệ thống được thiết kế theo mô hình **3 lớp (3-Tier Architecture)** đặt trong một **Virtual Private Cloud (VPC)** có phân chia subnet rõ ràng:
 
-![Kiến trúc FlashLearn AWS](/images/5-Workshop/5.1-Workshop-overview/aws_whiteboard.png)
+![`Kiến trúc FlashLearn AWS](/fcj-workshop-template-main/images/5-Workshop/5.1-Workshop-overview/aws_whiteboard.png)
 
 ### Các thành phần chính
 
@@ -93,4 +93,5 @@ Biết cách dọn dẹp tài nguyên để tránh phát sinh chi phí
 | Amazon S3       | 5GB standard          | ~$0.12         |
 | Amazon Cognito  | < 50,000 MAU          | $0.00          |
 | **Tổng**        |                       | **~$24/tháng** |
+
 

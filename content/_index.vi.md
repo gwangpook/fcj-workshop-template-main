@@ -27,7 +27,7 @@ chapter: false
 
 
 <p align="center">
-  <img src="/images/avatar.png" width="400">
+  <img src="/fcj-workshop-template-main/images/avatar.png" width="400">
 </p>
 
 

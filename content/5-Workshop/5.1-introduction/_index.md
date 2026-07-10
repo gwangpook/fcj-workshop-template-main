@@ -1,4 +1,4 @@
----
+﻿---
 title: "Introduction"
 date: 2026-07-09
 weight: 1
@@ -25,7 +25,7 @@ The application currently runs with **SQLite** on a local environment. This work
 
 The system is designed following a **3-Tier Architecture** deployed within a **Virtual Private Cloud (VPC)** with clearly separated subnets:
 
-![FlashLearn AWS Architecture](/images/5-Workshop/5.1-Workshop-overview/aws_whiteboard.png)
+![`FlashLearn AWS Architecture](/fcj-workshop-template-main/images/5-Workshop/5.1-Workshop-overview/aws_whiteboard.png)
 
 ### Core Components
 
@@ -93,4 +93,5 @@ After completing this workshop, you will be able to:
 | Amazon S3       | 5GB standard          | ~$0.12         |
 | Amazon Cognito  | < 50,000 MAU          | $0.00          |
 | **Total**       |                       | **~$24/month** |
+
 

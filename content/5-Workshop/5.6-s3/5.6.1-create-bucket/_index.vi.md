@@ -1,4 +1,4 @@
----
+﻿---
 title: "Tạo S3 Bucket & Phân quyền"
 date: 2026-07-09
 weight: 1
@@ -27,7 +27,7 @@ pre: "<b>5.6.1. </b>"
 
 1. Tích xác nhận bỏ chặn public access → Nhấn **Create bucket**
 
-![Tạo S3 Bucket](/images/5-Workshop/5.6-s3/5.6.1/1.png)
+![`Tạo S3 Bucket](/fcj-workshop-template-main/images/5-Workshop/5.6-s3/5.6.1/1.png)
 
 ---
 
@@ -105,7 +105,7 @@ EC2 cần quyền để đọc/ghi vào S3. Cách tốt nhất là dùng **IAM R
    - **Actions** → **Security** → **Modify IAM role**
    - Chọn `flashlearn-ec2-role` → **Update IAM role**
 
-![Gắn IAM Role vào EC2](/images/5-Workshop/5.6-s3/5.6.1/2.png)
+![`Gắn IAM Role vào EC2](/fcj-workshop-template-main/images/5-Workshop/5.6-s3/5.6.1/2.png)
 
 ---
 
@@ -116,3 +116,4 @@ Sau bước này, bạn đã có:
 -  Bucket Policy cho phép đọc file công khai
 -  CORS cấu hình cho phép upload từ browser
 -  IAM Role gắn vào EC2 để có quyền S3
+

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Configure Internet Gateway & Route Tables"
 date: 2026-07-09
 weight: 2
@@ -25,14 +25,14 @@ An **Internet Gateway (IGW)** is the gateway connecting the VPC to the Internet.
 
 3. Click **Create internet gateway**
 
-![Create Internet Gateway](/images/5-Workshop/5.3-vpc/5.3.2/1.png)
+![`Create Internet Gateway](/fcj-workshop-template-main/images/5-Workshop/5.3-vpc/5.3.2/1.png)
 
 4. After creation, **attach the IGW to the VPC**:
    - Select `flashlearn-igw` → **Actions** → **Attach to VPC**
    - Select `flashlearn-vpc`
    - Click **Attach internet gateway**
 
-![Attach IGW to VPC](/images/5-Workshop/5.3-vpc/5.3.2/2.png)
+![`Attach IGW to VPC](/fcj-workshop-template-main/images/5-Workshop/5.3-vpc/5.3.2/2.png)
 
 ---
 
@@ -58,7 +58,7 @@ A **Route Table** defines where network traffic is directed.
 | `0.0.0.0/0` | `flashlearn-igw` |
 
 5. Click **Save changes**
-![Add Internet Route](/images/5-Workshop/5.3-vpc/5.3.2/3.png)
+![`Add Internet Route](/fcj-workshop-template-main/images/5-Workshop/5.3-vpc/5.3.2/3.png)
 
 6. **Associate with Public Subnet**: **Subnet associations** tab → **Edit subnet associations** → Select `flashlearn-public-subnet` → **Save associations**
 
@@ -122,3 +122,4 @@ After this step, you will have:
 -  Route Table `flashlearn-public-rt` routing traffic to the Internet
 -  Security Group `flashlearn-ec2-sg` allowing HTTP/HTTPS/SSH
 -  Security Group `flashlearn-rds-sg` allowing only EC2 to connect to PostgreSQL
+
