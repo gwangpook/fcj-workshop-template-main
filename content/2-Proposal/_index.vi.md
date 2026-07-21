@@ -48,7 +48,7 @@ Bên cạnh đó, Amazon Polly được tích hợp để hỗ trợ chức năn
 FlashLearn được triển khai bên trong một Amazon VPC trải rộng trên hai Availability Zones nhằm đảm bảo tính sẵn sàng cao và khả năng chịu lỗi khi xảy ra sự cố tại một vùng.
 
 <p align="center">
-  <img src="/fcj-workshop-template/images/2-Proposal/img4.png" width="700">
+  <img src="/fcj-workshop-template-main/images/2-Proposal/img4.png" width="700">
 </p>
 
 
