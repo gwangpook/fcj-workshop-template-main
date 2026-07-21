@@ -20,12 +20,4 @@ During my internship, I had the opportunity to participate in several events org
 
 ---
 
-### [Event 2](4.2-Event2/)
 
-&emsp;**Event Name:** AWS GameDay – 8 Teams Competition (20-06-2026)
-
-&emsp;**Date & Time:** 09:00 AM, June 20, 2026
-
-&emsp;**Location:** Offline Meetup – FCAJ Cloud Journey Community Event
-
-&emsp;**Role:** Participant
