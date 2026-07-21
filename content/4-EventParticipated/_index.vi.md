@@ -20,12 +20,4 @@ Trong quá trình thực tập, em đã tham gia nhiều sự kiện do cộng �
 
 ---
 
-### [Event 2](4.2-Event2/)
 
-&emsp;**Tên sự kiện:** AWS GameDay - 8 Đội Tranh Hùng (20-06-2026)
-
-&emsp;**Thời gian:** Sáng 09:00 ngày 20/06/2026
-
-&emsp;**Địa điểm:** Offline Meetup - Sự kiện cộng đồng FCAJ Cloud Journey
-
-&emsp;**Vai trò trong sự kiện:** Người tham dự
