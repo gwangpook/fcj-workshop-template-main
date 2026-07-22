@@ -12,7 +12,7 @@ pre: "<b>5. </b>"
 In this workshop, you will learn how to deploy an **ASP.NET Core 8.0** application onto **Amazon Web Services (AWS)** infrastructure using a standard enterprise 3-tier architecture.
 
 ---
-## DEMO : http://flash-learn.ap-southeast-1.elasticbeanstalk.com/
+## DEMO : https://d2rk4q7n3y3z05.cloudfront.net/
 ## What You Will Build
 
 ```
