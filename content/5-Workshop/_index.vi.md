@@ -1,4 +1,3 @@
-<img width="1904" height="927" alt="image" src="https://github.com/user-attachments/assets/4f0863f8-03b4-44a7-aac5-e8d9c43be63c" />---
 title: "Workshop"
 date: 2026-07-09
 weight: 5
