@@ -11,7 +11,7 @@ pre: "<b>5. </b>"
 Trong workshop này, bạn sẽ học cách triển khai ứng dụng **ASP.NET Core 8.0** lên hạ tầng **Amazon Web Services (AWS)** theo kiến trúc 3 lớp chuẩn doanh nghiệp.
 
 ---
-## DEMO : http://flash-learn.ap-southeast-1.elasticbeanstalk.com/
+## DEMO : https://d2rk4q7n3y3z05.cloudfront.net/
 ## Những gì bạn sẽ xây dựng
 
 ```
